@@ -27,7 +27,7 @@ function ProductList() {
     setLoading(true);
 
     // Fetch data
-    fetch('http://scandiweb-test.local/products')
+    fetch('https://sw.salahineo.com/products')
       .then(response => response.json())
       .then(data => {
         // Set data to State
@@ -45,7 +45,7 @@ function ProductList() {
         "ids": checkedProducts
       }
 
-      fetch('http://scandiweb-test.local/products', {
+      fetch('https://sw.salahineo.com/products', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

@@ -48,7 +48,7 @@ function AddProduct() {
     const product = { name, price, sku, type, size_mb: size, weight_kg: weight, ...dimensions };
 
     // Send Data
-    fetch('http://scandiweb-test.local/products', {
+    fetch('https://sw.salahineo.com/products', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

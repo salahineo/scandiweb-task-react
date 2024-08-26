@@ -82,6 +82,8 @@ Make sure you have these installed on your machine:
 3. Run `npm run dev` to start the development server.
 4. Visit the link in the terminal in your browser to view the application.
 
+| Make sure to change the API URL in the `Frontend/src/Components/...` files to your created V-Host.
+
 ---
 
 ### Contact
